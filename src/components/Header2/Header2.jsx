@@ -6,7 +6,7 @@ const Header2 = ({onTryClick}) => {
   }
 
   return (
-    <section id='header2' className='px-20 bg-teal-200 pt-6 pb-6'>
+    <section id='header2' className='px-40 bg-teal-200 pt-20 pb-20'>
         <div>
             <h1 className='text-4xl font-bold dark:text-white text-center mb-3'>WHAT IS ASTRSC?</h1>
             <h2 className='mb-6 text-3xl font-bold dark:text-white'>The Africa Stereotype Scanner (ASTRSC) is a tool that scans text for linguistic elements that often contribute to stereotypes about Africa.</h2>
