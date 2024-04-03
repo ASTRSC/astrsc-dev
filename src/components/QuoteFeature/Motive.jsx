@@ -1,0 +1,19 @@
+import Navbar from "../Navbar/Navbar";
+
+const Tribalism = () => {
+
+    return (
+        <div>
+            <Navbar/>
+            <div className="pt-10 px-20 pb-20">
+              <h1 className='text-4xl font-bold dark:text-white mb-3'>Voices: Motive and Intention</h1>
+              <p className='mb-6 text-lg font-normal text-gray-500 dark:text-gray-400'>One of the most powerful ways journalists shape public narratives is by giving space to certain voices and excluding others. Who has a say in a story – and who does not – constitutes a deliberate choice with evident ramifications on public perceptions of whose knowledge and perspectives are deemed more valuable and important. Journalism traditionally holds balance as a core principle (the logic of getting both sides of a story, for instance, opposing candidates during an election or opposing parties in a trial). Yet, <a href="#">scholarship on journalism</a> has found that reporting of African stories tended to favor foreign voices and expertise to the detriment of African perspectives. The result? A media framing that confines Africans to the sideline of public narratives about their own histories.</p>
+              <p className='mb-6 text-lg font-normal text-gray-500 dark:text-gray-400'>In 2015, over 200 writers and academics wrote an <a href="https://www.thejournalist.org.za/the-craft/open-letter-to-60-minutes-regarding-its-reporting-on-africa/">open letter</a> to express their concerns about CBS’s 60 minutes reporting of African affairs. In their own words: “In a series of recent segments from the continent, 60 Minutes has managed, quite extraordinarily, to render people of black African ancestry voiceless and all but invisible.” In one of the segments taking place in Liberia, not a single Liberian was quoted in the report: “In that broadcast, Africans were reduced to the role of silent victims. They constituted what might be called a scenery of misery: people whose thoughts, experiences, and actions were treated as if totally without interest.”</p>
+              <p className='mb-6 text-lg font-normal text-gray-500 dark:text-gray-400'>But it’s not only who is quoted that matters. We should also consider who speaks first, who speaks the most, and who speaks several times. We also need to consider how different types of voices are introduced. If a writer presents a quote with the verb “say” or the verbs “argue” or “complain,” these will have different connotations. In one case, the reader is invited to treat the quote neutrally and objectively. In the other, the quoting verb will create a sense that the speaker is speaking in ways that are perhaps vehement or emotional. Quoting verbs carry connotations that can paint speakers under different lights (read more here). While a <a href="https://www.tandfonline.com/doi/abs/10.1080/1461670X.2016.1262748?journalCode=rjos20">study</a> found that African voices are quoted approximately as often as Euro-American ones, it also showed a significant bias in quoting verbs. Euro-American voices were largely introduced through neutral quoting verbs, while African voices were introduced through quoting verbs with heavy connotative load – making these voices appear less authoritative, rational, and trustworthy.</p>
+              <p className='mb-6 text-lg italic font-normal text-gray-500 dark:text-gray-400'>The Africa Stereotype Scanner is developing a function to automatically identify a direct quote in an article, who said the quote, and what verb introduces the quote. Our goal is to provide the writer with a quick overview of the different voices in their story, how they are introduced, and how much space each voice takes. This function invites the author to consider how they distribute voices in their article and watch out for possible biases.</p>
+          </div>
+      </div>
+    );
+  }
+  
+  export default Tribalism

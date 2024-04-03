@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 
 const WhoIsFor = () => {
 
   return (
-    <section id='header2' className='px-20 bg-teal-200 pt-6 pb-6'>
+    <div>
+        <Navbar/>
         <div>
             <h1 className='text-4xl font-bold dark:text-white text-center mb-3'>Who is ASTRSC for?</h1>
             <p className='mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>Stereotypes often creep in because of ignorance and unconscious biases. We primarily designed ASTRSC for journalists, particularly for <span className='font-bold'>journalists writing African news stories for the first time and journalists in training</span>. ASTRSC is an opportunity for them to reflect on their writing practices and accountability while learning about key debates surrounding stereotyping and media representations of Africa.</p>
@@ -13,7 +15,7 @@ const WhoIsFor = () => {
             </span> more broadly – <span className='font-bold'>from PR experts and advertisers to NGO communication officers, bloggers and scholars</span> (hello hello <a href="https://www.nytimes.com/2017/08/18/opinion/joseph-conrad-congo-river.html?mcubz=3">Maya Jasanof</a> and <a href="https://www.nas.org/academic-questions/31/2/the_case_for_colonialism">Bruce Gilley</a> !).</p>
            
         </div>
-    </section>
+    </div>
   );
 }
 

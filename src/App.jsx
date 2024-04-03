@@ -18,10 +18,6 @@ const App = () => {
       <Navbar />
       {!tryButtonClicked && <Header />}
       {!tryButtonClicked && <Header2 onTryClick={handleTryButtonClick}/>}
-      {tryButtonClicked && <Scanner/>}
-      {/* {tryButtonClicked && <ScannerDescrip/> }
-      {tryButtonClicked && <TextInput/>} */}
-      {/* <City /> */}
     </div>
   );
 }
